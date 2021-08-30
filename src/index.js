@@ -2,7 +2,11 @@ import mysql from "mysql";
 
 const conn = mysql.createConnection({
     host: "localhost",
-    user: "root",
-    password: "root"
-    database: "zmones"
-})
+    user: "nodejs",
+    password: "nodejsnodejs"
+    database: "zmones",
+});
+
+conn.connect();
+
+conn.end();
